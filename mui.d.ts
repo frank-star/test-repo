@@ -6,12 +6,5 @@ declare global {
       elevation: Palette['primary2'];
       tertiary: Palette['primary2'];
     }
-
-    interface PaletteOptions {
-      attention: PaletteOptions['primary'];
-      muted: PaletteOptions['primary'];
-      elevation: PaletteOptions['primary'];
-      tertiary: PaletteOptions['primary'];
-    }
   }
 }
